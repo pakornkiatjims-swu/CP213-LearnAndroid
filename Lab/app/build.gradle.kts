@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.a520_lablearnandroid"
-    compileSdk = 36
+    namespace = "com.example.lablearnandroid"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.a520_lablearnandroid"
+        applicationId = "com.example.lablearnandroid"
         minSdk = 30
-        targetSdk = 36
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -56,4 +56,5 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("io.coil-kt:coil-compose:2.5.0") // Check for the latest version
 }
