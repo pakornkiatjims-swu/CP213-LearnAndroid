@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">LabLearnAndroid</string>
+    <string name="app_name">517LabLearnAndroid</string>
     <string name="title_activity_main2">MainActivity2</string>
-    <string name="title_activity_list">LIstActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_shared_preferences">SharedPreferences</string>
+    <string name="title_activity_pokedex">PokedexActivity</string>
 </resources>

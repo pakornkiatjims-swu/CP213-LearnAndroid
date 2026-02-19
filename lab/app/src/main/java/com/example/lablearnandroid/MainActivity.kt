@@ -59,7 +59,7 @@ class MainActivity : ComponentActivity() {
             ) {
                 Text(
                     text = "hp",
-                    modifier = Modifier
+                    modifier = Modifier 
                         .align(alignment = Alignment.CenterStart)
                         .fillMaxWidth(fraction = 0.55f)
                         .background(color = Color.Red)

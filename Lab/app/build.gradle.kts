@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lablearnandroid"
-    compileSdk = 34
+    namespace = "com.example.a517lablearnandroid"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.lablearnandroid"
+        applicationId = "com.example.a517lablearnandroid"
         minSdk = 30
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -57,4 +57,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation("io.coil-kt:coil-compose:2.5.0") // Check for the latest version
+
+    // Retrofit สำหรับคุยกับ Server
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    // Converter สำหรับแปลง JSON เป็น Data Class (Gson)
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Lifecycle & ViewModel สำหรับ Compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
 }
