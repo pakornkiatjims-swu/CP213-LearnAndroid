@@ -1,4 +1,4 @@
-package com.example.a517lablearnandroid
+package com.example.a520lablearnandroid
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -27,7 +27,7 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.a517lablearnandroid.ui.theme._517LabLearnAndroidTheme
+import com.example.a520lablearnandroid.ui.theme._517LabLearnAndroidTheme
 
 class Mission3DonutChartActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

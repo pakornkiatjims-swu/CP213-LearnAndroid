@@ -1,4 +1,4 @@
-package com.example.a517lablearnandroid
+package com.example.a520lablearnandroid
 
 import android.content.Intent
 import android.os.Bundle
@@ -21,7 +21,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.core.app.ActivityOptionsCompat
-import com.example.a517lablearnandroid.ui.theme._517LabLearnAndroidTheme
+import com.example.a520lablearnandroid.ui.theme._517LabLearnAndroidTheme
 
 class Mission7TransitionActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
