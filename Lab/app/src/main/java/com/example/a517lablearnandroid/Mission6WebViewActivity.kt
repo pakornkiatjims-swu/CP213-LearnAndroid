@@ -42,7 +42,12 @@ class WebViewViewModel : ViewModel() {
     val url: StateFlow<String> = _url.asStateFlow()
 
     fun updateUrl(newUrl: String) {
-        _url.value = if (newUrl.startsWith("http")) newUrl else "https://$newUrl"
+        val sanitized = when {
+            newUrl.startsWith("https://") || newUrl.startsWith("http://") -> newUrl
+            newUrl.isNotBlank() -> "https://$newUrl"
+            else -> return
+        }
+        _url.value = sanitized
     }
 }
 

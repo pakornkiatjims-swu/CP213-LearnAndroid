@@ -1,5 +1,6 @@
 package com.example.a517lablearnandroid
 
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -33,8 +34,16 @@ class Mission7DetailActivity : ComponentActivity() {
                         onClose = {
                             finish()
                             // Slide Down: Activity นี้ออกไปด้านล่าง, Activity ก่อนหน้ากลับเข้ามา
-                            @Suppress("DEPRECATION")
-                            overridePendingTransition(R.anim.slide_down_in, R.anim.slide_down_out)
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                                overrideActivityTransition(
+                                    OVERRIDE_TRANSITION_CLOSE,
+                                    R.anim.slide_down_in,
+                                    R.anim.slide_down_out
+                                )
+                            } else {
+                                @Suppress("DEPRECATION")
+                                overridePendingTransition(R.anim.slide_down_in, R.anim.slide_down_out)
+                            }
                         },
                         modifier = Modifier.padding(innerPadding)
                     )
