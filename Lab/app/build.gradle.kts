@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.a517lablearnandroid"
+    namespace = "com.example.a520lablearnandroid"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.a517lablearnandroid"
+        applicationId = "com.example.a520lablearnandroid"
         minSdk = 30
         targetSdk = 35
         versionCode = 1

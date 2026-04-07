@@ -12,29 +12,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme._517LabLearnAndroid"
+        android:theme="@style/Theme._520LabLearnAndroid"
         tools:targetApi="31">
         <activity
             android:name=".PokedexActivity"
             android:exported="false"
             android:label="@string/title_activity_pokedex"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".SharedPreferencesActivity"
             android:exported="false"
             android:label="@string/title_activity_shared_preferences"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".utils.SharedPreferences"
             android:exported="false"
             android:label="@string/title_activity_shared_preferences"
-            android:theme="@style/Theme._517LabLearnAndroid"
+            android:theme="@style/Theme._520LabLearnAndroid"
             tools:ignore="MissingClass" />
         <activity
             android:name=".MenuActivity"
             android:exported="true"
             android:label="@string/title_activity_menu"
-            android:theme="@style/Theme._517LabLearnAndroid">
+            android:theme="@style/Theme._520LabLearnAndroid">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,12 +45,12 @@
             android:name=".ListActivity"
             android:exported="false"
             android:label="@string/title_activity_list"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".MainActivity2"
             android:exported="true"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme._517LabLearnAndroid">
+            android:theme="@style/Theme._520LabLearnAndroid">
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
@@ -64,7 +64,7 @@
             android:name=".RPGCardActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme._517LabLearnAndroid">
+            android:theme="@style/Theme._520LabLearnAndroid">
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
@@ -77,47 +77,47 @@
             android:name=".Mission1LikeButtonActivity"
             android:exported="false"
             android:label="Mission 1: Like Button Animation"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".Mission2ContactListActivity"
             android:exported="false"
             android:label="Mission 2: Contact List"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".Mission3DonutChartActivity"
             android:exported="false"
             android:label="Mission 3: Donut Chart"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".Mission4ToDoListActivity"
             android:exported="false"
             android:label="Mission 4: To-Do List"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".Mission5SideEffectsActivity"
             android:exported="false"
             android:label="Mission 5: Side Effects"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".Mission6WebViewActivity"
             android:exported="false"
             android:label="Mission 6: WebView"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".Mission7TransitionActivity"
             android:exported="false"
             android:label="Mission 7: Activity Transitions"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".Mission7DetailActivity"
             android:exported="false"
             android:label="Mission 7: Detail"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
         <activity
             android:name=".Mission8AdaptiveLayoutActivity"
             android:exported="false"
             android:label="Mission 8: Adaptive Layout"
-            android:theme="@style/Theme._517LabLearnAndroid" />
+            android:theme="@style/Theme._520LabLearnAndroid" />
     </application>
 
 </manifest>
