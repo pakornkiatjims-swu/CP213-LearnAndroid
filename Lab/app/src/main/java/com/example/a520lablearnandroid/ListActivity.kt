@@ -30,6 +30,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.example.a520lablearnandroid.utils.PokemonEntry
 
 
 class ListActivity : ComponentActivity() {

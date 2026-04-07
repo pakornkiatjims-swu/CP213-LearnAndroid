@@ -1,9 +1,9 @@
-package com.example.a517lablearnandroid
+package com.example.a520lablearnandroid
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.a517lablearnandroid.utils.PokemonEntry
-import com.example.a517lablearnandroid.utils.PokemonNetwork
+import com.example.a520lablearnandroid.utils.PokemonEntry
+import com.example.a520lablearnandroid.utils.PokemonNetwork
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch

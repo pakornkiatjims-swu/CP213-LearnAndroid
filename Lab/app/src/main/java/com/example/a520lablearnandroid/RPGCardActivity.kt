@@ -1,4 +1,4 @@
-package com.example.a517lablearnandroid
+package com.example.a520lablearnandroid
 
 import android.content.Intent
 import android.os.Bundle
@@ -161,11 +161,3 @@ class RPGCardActivity : ComponentActivity() {
         Log.i("Lifecycle", "MainActivity : onRestart")
     }
 }
-
-//@Preview
-//@Composable
-//fun GreetingPreview() {
-//    _517LabLearnAndroidTheme {
-//        Greeting("Android")
-//    }
-//}

@@ -1,4 +1,4 @@
-package com.example.a517lablearnandroid
+package com.example.a520lablearnandroid
 
 import android.os.Bundle
 import android.util.Log

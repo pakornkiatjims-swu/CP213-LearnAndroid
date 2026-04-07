@@ -1,4 +1,4 @@
-package com.example.a517lablearnandroid
+package com.example.a520lablearnandroid
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.a517lablearnandroid.ui.theme._517LabLearnAndroidTheme
+import com.example.a520lablearnandroid.ui.theme._517LabLearnAndroidTheme
+import com.example.a520lablearnandroid.utils.SharedPreferencesUtil
 
 class SharedPreferencesActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,7 +34,7 @@ class SharedPreferencesActivity : ComponentActivity() {
             _517LabLearnAndroidTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = name,
+                        name = name ?: "Guest",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

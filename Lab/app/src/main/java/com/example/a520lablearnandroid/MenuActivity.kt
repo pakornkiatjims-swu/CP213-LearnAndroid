@@ -1,4 +1,4 @@
-package com.example.a517lablearnandroid
+package com.example.a520lablearnandroid
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,7 +12,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.a517lablearnandroid.ui.theme._517LabLearnAndroidTheme
+import com.example.a520lablearnandroid.ui.theme._517LabLearnAndroidTheme
 
 class MenuActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -110,4 +110,3 @@ class MenuActivity : ComponentActivity() {
         }
     }
 }
-
