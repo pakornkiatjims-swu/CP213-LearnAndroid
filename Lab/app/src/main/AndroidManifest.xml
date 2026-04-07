@@ -73,6 +73,51 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
+        <activity
+            android:name=".Mission1LikeButtonActivity"
+            android:exported="false"
+            android:label="Mission 1: Like Button Animation"
+            android:theme="@style/Theme._517LabLearnAndroid" />
+        <activity
+            android:name=".Mission2ContactListActivity"
+            android:exported="false"
+            android:label="Mission 2: Contact List"
+            android:theme="@style/Theme._517LabLearnAndroid" />
+        <activity
+            android:name=".Mission3DonutChartActivity"
+            android:exported="false"
+            android:label="Mission 3: Donut Chart"
+            android:theme="@style/Theme._517LabLearnAndroid" />
+        <activity
+            android:name=".Mission4ToDoListActivity"
+            android:exported="false"
+            android:label="Mission 4: To-Do List"
+            android:theme="@style/Theme._517LabLearnAndroid" />
+        <activity
+            android:name=".Mission5SideEffectsActivity"
+            android:exported="false"
+            android:label="Mission 5: Side Effects"
+            android:theme="@style/Theme._517LabLearnAndroid" />
+        <activity
+            android:name=".Mission6WebViewActivity"
+            android:exported="false"
+            android:label="Mission 6: WebView"
+            android:theme="@style/Theme._517LabLearnAndroid" />
+        <activity
+            android:name=".Mission7TransitionActivity"
+            android:exported="false"
+            android:label="Mission 7: Activity Transitions"
+            android:theme="@style/Theme._517LabLearnAndroid" />
+        <activity
+            android:name=".Mission7DetailActivity"
+            android:exported="false"
+            android:label="Mission 7: Detail"
+            android:theme="@style/Theme._517LabLearnAndroid" />
+        <activity
+            android:name=".Mission8AdaptiveLayoutActivity"
+            android:exported="false"
+            android:label="Mission 8: Adaptive Layout"
+            android:theme="@style/Theme._517LabLearnAndroid" />
     </application>
 
 </manifest>
